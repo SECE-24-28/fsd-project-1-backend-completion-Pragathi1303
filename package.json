@@ -1,20 +1,27 @@
 {
-  "name": "backend",
+  "name": "college-management-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "College Management Backend API",
   "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
   },
-  "keywords": [],
+  "keywords": ["college", "management", "nodejs", "express", "mongodb", "jwt"],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "mongoose": "^9.6.3"
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.0",
+    "nodemailer": "^6.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
